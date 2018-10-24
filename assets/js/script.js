@@ -65,7 +65,7 @@ $(function(){
 			
 				// If the cache is old or nonexistent, issue a new AJAX request
 
-				var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${d81882a46663abad845501107e17e23e}&callback=?`
+				var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${"d81882a46663abad845501107e17e23e"}&callback=?`
 
 				$.getJSON(weatherAPI, function(response){
 
